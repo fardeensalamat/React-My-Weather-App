@@ -1,0 +1,38 @@
+.CardContainer{
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    width: 50vh;
+    margin: auto;   
+}
+
+.CityName{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+img{
+    width: 150px;
+}
+
+.main{
+    display: flex;
+}
+.info{
+    color: #777777;
+}
+
+.bottom{
+    margin: 5px 0px;
+    text-align: center;   
+}
+
+/* Increase width when in landscape mode on mobile */
+
+@media (max-width: 768px) and (orientation: landscape) {
+    .CardContainer {
+      width: 80vh; 
+      margin-bottom: 100px;   
+    }
+  }
+  
